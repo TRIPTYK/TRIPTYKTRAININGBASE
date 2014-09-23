@@ -1,0 +1,47 @@
+@import url('http://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans|Bree+Serif');
+@import url('http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+
+body{
+	font-family: $font-primary;
+	font-size: 1.1rem;
+	line-height:106%;
+	background: $paleyellow;
+	color:$darkblue;
+}
+
+#{headings()}{
+	font-family: $font-secondary;
+	font-weight:normal;
+	color:$darkgray;
+	@include text-shadow($paleryellow 1px 1px);
+}
+
+h1{
+	font-size : 2.2rem;
+	color:lighten($darkblue,25);
+	margin-bottom:.4rem;
+	border-bottom: 1px solid $lightgray;
+	padding-top: 10px;
+}
+h2{
+	font-size: 1.5rem;
+	line-height:100%;
+	margin: 20px 0 0 0;
+	color : $orange;
+}
+h3{
+	font-size : 1.8rem;
+	line-height: 60%;
+	color : $orange;
+}
+
+a{
+	text-decoration: underline;
+	color:$mediumgray;
+	&:hover{
+		color:$orange;
+	}
+}
+
+
+

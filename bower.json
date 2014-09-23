@@ -1,0 +1,20 @@
+{
+  "name": "WMMBASE",
+  "version": "0.0.0",
+  "homepage": "https://github.com/TRIPTYK/path_apps",
+  "authors": [
+    "Gilles Bertrand <gilles@triptyk.eu>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.1"
+  }
+}
