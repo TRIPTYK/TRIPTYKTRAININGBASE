@@ -6,6 +6,10 @@ module.exports = function(grunt) {
                 src: "app/index.html",
                 dev: "generated/index.html"
             },
+            html: {
+                src: "app/testNodeJS.html",
+                dev: "generated/testNodeJS.html"
+            },
             images: {
                 src: "**/**",
                 dev: "generated/images/"
